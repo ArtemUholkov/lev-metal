@@ -4,7 +4,6 @@ function App() {
   return (
     <div className="App">
       <Header />
-       <p>Artem<span>Uholkov</span></p>
     </div>
     
   );

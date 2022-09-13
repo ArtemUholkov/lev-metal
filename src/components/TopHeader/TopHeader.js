@@ -1,4 +1,7 @@
 import './topHeader.scss';
+import HeaderCallButton from '../HeaderCallButton/HeaderCallButton';
+import SearchBar from '../SearchBar/SearchBar';
+
 
 function Header() {
     return (
@@ -14,8 +17,8 @@ function Header() {
                     <span className="phone_number">+380737570000</span>
                 </li>
             </ul>
-            <div className="button"></div>
-            <div className="searchBar"></div>
+            <div className="button"><HeaderCallButton /></div>
+            <div className="searchBar"><SearchBar/></div>
             <div className="language_choose"></div>
         </div>
     )
