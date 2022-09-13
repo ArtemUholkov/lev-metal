@@ -1,6 +1,7 @@
 import './topHeader.scss';
 import HeaderCallButton from '../HeaderCallButton/HeaderCallButton';
 import SearchBar from '../SearchBar/SearchBar';
+import LanguageSwitcher from '../LanguageSwitcher/LanguageSwitcher';
 
 
 function Header() {
@@ -19,7 +20,7 @@ function Header() {
             </ul>
             <div className="button"><HeaderCallButton /></div>
             <div className="searchBar"><SearchBar/></div>
-            <div className="language_choose"></div>
+            <div className="language_choose"><LanguageSwitcher/></div>
         </div>
     )
 }

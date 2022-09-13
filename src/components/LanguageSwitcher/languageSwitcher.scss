@@ -1,0 +1,14 @@
+.lang_switcher {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 5px;
+    .flag_icon {
+        width: 24px;
+        height: 16px;
+        .arrow_icon{
+            width: 6px;
+            height: 9px;
+        }
+    }
+}
