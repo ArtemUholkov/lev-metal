@@ -1,0 +1,25 @@
+.bottomheader_button{
+    width: 159px;
+    height: 35px;
+    background-color: transparent;
+    border: 2px solid #FFFFFF;
+    border-radius: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+    cursor: pointer;
+    .burger_wrapper{
+        display: flex;
+        flex-direction: column;
+        gap: 3px;
+        .burger_line{
+            width: 30px;
+            height: 2px;
+            background-color: #FFFFFF;
+        }
+    }
+    .bottomheader_text{
+        color: #FFFFFF;
+    }
+}

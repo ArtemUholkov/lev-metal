@@ -1,0 +1,22 @@
+.bottom_header_wrapper{
+    width: 100%;
+    background-color: #293358;
+    height: 55px;
+    display: flex;
+    align-items: center;
+    
+    .navbar{
+        width: 1402px;
+        margin: 0 auto;
+        display: flex;
+        gap: 38px;
+        list-style: none;
+        .navbar_link{
+            color: #FFFFFF;
+        }
+        a{
+            text-decoration: none;
+            padding: 5px;
+        }
+    }
+}

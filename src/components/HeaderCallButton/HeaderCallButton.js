@@ -2,7 +2,7 @@ import './headerCallButton.scss';
 
 function headerCallButton(props) {
     return (
-        <button>
+        <button className='topheader_button'>
             <span>{props.name}</span>
         </button>
     )
