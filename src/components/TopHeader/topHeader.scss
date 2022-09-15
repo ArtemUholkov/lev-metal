@@ -4,10 +4,15 @@
     display: flex;
     align-items: center;
     justify-content: space-around;
+    
     .logo{
         width: 265px;
         height: 77px;
     }
+    .content_wrapper{
+        display: flex;
+        align-items: center;
+        gap: 50px;
     .phone_numbers{
        list-style: none;
        display: flex;
@@ -16,7 +21,15 @@
         display: flex;
         align-items: center;
         gap: 9px;
+        .phone_operator{
+            width: 24px;
+            height: 23px;
+        }
+        .phone_number{
+            font-size: 16px;
+            line-height: 19px;
+        }
        }
-    }
-    
+    } 
+}
 }

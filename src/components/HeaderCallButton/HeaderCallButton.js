@@ -1,9 +1,9 @@
 import './headerCallButton.scss';
 
-function headerCallButton() {
+function headerCallButton(props) {
     return (
         <button>
-            <span>Замовити дзвінок</span>
+            <span>{props.name}</span>
         </button>
     )
 }
