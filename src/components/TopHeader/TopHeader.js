@@ -1,3 +1,5 @@
+import React from 'react';
+
 import './topHeader.scss';
 import HeaderCallButton from '../HeaderCallButton/HeaderCallButton';
 import SearchBar from '../SearchBar/SearchBar';
@@ -5,6 +7,9 @@ import LanguageSwitcher from '../LanguageSwitcher/LanguageSwitcher';
 
 
 function Header() {
+
+    
+
     return (
         <div className="wrapper">
             <img src="./img/topHeader/lev-logo.png" alt="Logo" className="logo" />

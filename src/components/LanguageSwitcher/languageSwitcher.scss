@@ -3,6 +3,7 @@
     justify-content: center;
     align-items: flex-start;
     gap: 5px;
+    cursor: pointer;
     .flag_icon {
         width: 24px;
         height: 16px;
@@ -11,4 +12,52 @@
             height: 9px;
         }
     }
+}
+.lang_container {
+    position: relative;
+}
+.drowdown {
+    position: absolute;
+    left: -100px;
+    top: 21px;
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    padding: 10px 8px;
+    border-radius: 5px;
+    .language{
+        display: flex;
+        align-items: center;
+        gap: 8px;
+        .flag{
+            width: 26px;
+            height: 17px;
+            .language_text{
+                font-size: 14px;
+                line-height: 17px;
+            }
+        }
+    }
+
+}
+.active{
+    opacity: 1;
+    visibility: visible;
+    transition: ease 1s;
+}
+.inactive{
+    opacity: 0;
+    visibility: hidden;
+    transition: ease 1s;
+}
+
+
+.rotate {
+    transform: rotate(180deg);
+    transition: all 1s;
+}
+.norotate {
+    transform: rotate(0deg);
+    transition: all 1s;
 }
