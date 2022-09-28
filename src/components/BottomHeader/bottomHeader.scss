@@ -4,7 +4,6 @@
     height: 55px;
     display: flex;
     align-items: center;
-    
     .navbar{
         width: 1402px;
         margin: 0 auto;
@@ -17,6 +16,7 @@
         a{
             text-decoration: none;
             padding: 5px;
+            list-style-type: square;
         }
     }
 }
