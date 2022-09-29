@@ -5,7 +5,7 @@ import HeaderCallButton from '../HeaderCallButton/HeaderCallButton';
 import SearchBar from '../SearchBar/SearchBar';
 import LanguageSwitcher from '../LanguageSwitcher/LanguageSwitcher';
 import Modal from '../Modal/Modal';
-
+import OrderCallWork from '../OrderCallWork/OrderCallWork';
 
 function Header() {
     const [modalActive, setModalActive] = useState(false);
@@ -31,7 +31,7 @@ function Header() {
             </div>
         </div>
         <Modal active={modalActive} setActive={setModalActive}>
-        
+            <OrderCallWork></OrderCallWork>
         </Modal>
     </>
     )
