@@ -1,4 +1,5 @@
 .modal{
+    position: relative;
     width: 100vw;
     height: 100vh;
     background-color: rgba($color: #000000, $alpha: 0.4);
@@ -8,11 +9,27 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    
     .modal__content{
         padding: 20px;
         border-radius: 5px;
         background-color: #FFFFFF;
         width: 50vw;
+        .close {
+            cursor: pointer;
+            position: absolute;
+            top: 5px;
+            right: 20px;
+            font-size: 60px;
+            font-weight: 100;
+            display: inline-block;
+            transform: rotate(45deg);
+            transition: all 0.5s;
+          }
+          .close:hover{
+            opacity: 0.5;
+            transition: all 0.5s;
+          }
     }
 }
 .modal.active{

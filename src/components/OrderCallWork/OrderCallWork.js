@@ -13,7 +13,7 @@ function OrderCallWork() {
                 pattern="+[0-9]{3}-[0-9]{3}-[0-9]{4}"
                 required placeholder='+38(___)___ __ __'/>
             
-            <HeaderCallButton name="Замовити дзвінок" width="260"></HeaderCallButton>
+            <HeaderCallButton name="Замовити дзвінок"></HeaderCallButton>
             </form>
         </div>
     )
