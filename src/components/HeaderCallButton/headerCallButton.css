@@ -1,0 +1,14 @@
+.topheader_button {
+  width: 160px;
+  height: 40px;
+  background: #EA2036;
+  border: 1px solid #EA2036;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.topheader_button span {
+  font-family: "TT Norms";
+  font-size: 14px;
+  line-height: 17px;
+  color: #FFFFFF;
+}/*# sourceMappingURL=headerCallButton.css.map */

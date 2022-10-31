@@ -1,0 +1,34 @@
+.wrapper {
+  max-width: 1402px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.wrapper .logo {
+  width: 265px;
+  height: 77px;
+}
+.wrapper .content_wrapper {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}
+.wrapper .content_wrapper .phone_numbers {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+}
+.wrapper .content_wrapper .phone_numbers li {
+  display: flex;
+  align-items: center;
+  gap: 9px;
+}
+.wrapper .content_wrapper .phone_numbers li .phone_operator {
+  width: 24px;
+  height: 23px;
+}
+.wrapper .content_wrapper .phone_numbers li .phone_number {
+  font-size: 16px;
+  line-height: 19px;
+}/*# sourceMappingURL=topHeader.css.map */

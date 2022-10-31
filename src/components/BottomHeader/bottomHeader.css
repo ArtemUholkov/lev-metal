@@ -1,0 +1,21 @@
+.bottom_header_wrapper {
+  width: 100%;
+  background-color: #293358;
+  height: 55px;
+  display: flex;
+  align-items: center;
+}
+.bottom_header_wrapper .navbar {
+  width: 1402px;
+  margin: 0 auto;
+  display: flex;
+  gap: 38px;
+  list-style: none;
+}
+.bottom_header_wrapper .navbar .navbar_link {
+  color: #FFFFFF;
+}
+.bottom_header_wrapper .navbar a {
+  text-decoration: none;
+  padding: 5px;
+}/*# sourceMappingURL=bottomHeader.css.map */
