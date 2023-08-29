@@ -1,0 +1,54 @@
+[
+    {
+      id: 1,
+      name: "Шафи металеві",
+      subgroup: [
+        {
+          id: 123,
+          name: "Шафи металеві для одягу(ШОМ)",
+          subgroup: [
+            {
+              id: 122133, name: "Однорівневі",
+              items: [
+                {id: 111,
+                  name: " Шафа металева",
+                  color: "red",
+                  size: "xl",
+                  someParam: 'test test'}
+              ]
+            },
+            {
+              id: 19993, name: "Дворівневі",
+              items: [
+                {id: 111, name: " Шафа металева", color: "red", size: "xl", someParam: 'test test'},
+                {id: 11113123, name: " Шафа супер металева", color: "green", size: "xll", someParam: 'test test1'},
+              ]
+            },
+          ]
+        },
+        {id: 123, name: "Шафи металеві для якохїсь фігні",
+          subgroup: [
+            {
+              id: 122133,
+              name: "Трикутні",
+              items: [
+                {id: 111,
+                  name: " Шафа металева",
+                  color: "red",
+                  size: "xl",
+                  someParam: 'test test'}
+              ]
+            },
+            {
+              id: 19993, name: "Дворівневі",
+              items: [
+                {id: 111, name: " Шафа металева", color: "red", size: "xl", someParam: 'test test'},
+                {id: 11113123, name: " Шафа супер металева", color: "green", size: "xll", someParam: 'test test1'},
+              ]
+            },
+          ]
+        },
+      ]
+
+    }
+  ]
